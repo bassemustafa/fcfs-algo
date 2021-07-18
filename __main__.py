@@ -9,9 +9,9 @@ import fcfs_wt as fcfs
 if __name__ == '__main__':
     
     #read process file and the lines excluding the header line
-    process_file = open('processes.csv', 'r')
-    lines = process_file.readlines()
-    lines.remove(lines[0])
+    with open('processes.csv', 'r') as process_file:
+        lines = process_file.readlines()
+        lines.remove(lines[0])
     
     # Initiate a list for the queue
     process_queue = []
