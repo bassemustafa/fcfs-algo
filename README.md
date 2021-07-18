@@ -1,6 +1,6 @@
 #  First Come First Served Scheduling Algorithm.
 
-## OS college project for scheduling algorithms to handle CPU Processes in the queue.
+## OS college project for scheduling algorithms to handle CPU Processes in the queue using FCFS Algorithm.
 
 ### The Project Walkthrough:
 
